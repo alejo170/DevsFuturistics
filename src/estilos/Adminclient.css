@@ -1,0 +1,52 @@
+.containercam{
+    /* border: 2px solid gray;
+
+    background-color: #062e3a;
+    color: #fff;  */
+    /* padding: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 40px; */
+}
+
+.container-sm{
+    /* color: rgb(2, 230, 230); */
+}
+.formc{
+    /* border: 2px solid rgb(6, 187, 21);
+    background-color:red; */
+    display: inline-block;
+
+    
+
+}
+
+.botone{
+    margin-left: 8%;
+ 
+    
+
+   
+
+}
+
+.contbotones{
+    margin-top: 2%;
+
+    /* border: 2px solid red;
+    background-color:yellow; */
+
+}
+
+.contTabla{
+ 
+    /* color: red;
+    background-color:yellow;
+    border: 2px solid pink; */
+
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 4%;
+}
+
