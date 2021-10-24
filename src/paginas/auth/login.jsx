@@ -4,7 +4,7 @@ import { GoogleLogin } from 'react-google-login';
 import cookie from 'react-cookies';
 import logo from '../../imagenes/logo.png';
 import { useUser } from '../../context/userContext';
-
+import url from '../../componentes/constantes/urlback';
 
 
 
@@ -21,7 +21,7 @@ const responseGoogle = async (response) => {
           
         
 
-            const user = await fetch('https://dfservidor.herokuapp.com/usuarios/crearusuario', {
+            const user = await fetch(`${url}/usuarios/crearusuario`, {
                          
               method: 'POST',
               headers: {

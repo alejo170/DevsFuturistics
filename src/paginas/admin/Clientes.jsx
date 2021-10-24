@@ -4,6 +4,7 @@ import { useEffect, useState, useRef } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from "axios";
+import url from '../../componentes/constantes/urlback';
 
 const Clientes = () => {
 
@@ -64,7 +65,7 @@ const Clientes = () => {
 
     const options = {
       method: 'DELETE',
-      url: 'http://localhost:5000/usuarios/deleteuser',
+      url: `${url}/usuarios/deleteuser`,
       headers: { 'Content-Type': 'application/json' },
       data: userdel
     };
@@ -93,7 +94,7 @@ const Clientes = () => {
     console.log("Cambios del usuario", userupdate)
     const options = {
       method: 'PATCH',
-      url: 'http://localhost:5000/usuarios/update/',
+      url: `${url}/usuarios/update/`,
       headers: { 'Content-Type': 'application/json' },
       data: userupdate
     };
@@ -120,7 +121,7 @@ const Clientes = () => {
   function actualizarDatosback() {
     const options = {
       method: 'GET',
-      url: 'http://localhost:5000/usuarios/allusers',
+      url: `${url}/usuarios/allusers`,
       headers: { 'Content-Type': 'application/json' }
     };
 
@@ -149,7 +150,7 @@ const Clientes = () => {
       console.log("Cambios del usuario", userupdate)
       const options = {
         method: 'PATCH',
-        url: 'http://localhost:5000/usuarios/update/',
+        url: `${url}/usuarios/update/`,
         headers: { 'Content-Type': 'application/json' },
         data: userupdate
       };
@@ -293,7 +294,7 @@ const Clientes = () => {
 
       const options = {
         method: 'POST',
-        url: 'http://localhost:5000/usuarios/newuser',
+        url: `${url}/usuarios/newuser`,
         headers: { 'Content-Type': 'application/json' },
         data: nuevousuario
       };
