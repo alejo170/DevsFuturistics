@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import url from '../../componentes/constantes/urlback';
+import url from '../../componentes/constantes/urlBack';
 
 const Productos = () => {
 
