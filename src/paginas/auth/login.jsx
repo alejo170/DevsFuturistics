@@ -4,7 +4,7 @@ import { GoogleLogin } from 'react-google-login';
 import cookie from 'react-cookies';
 import logo from '../../imagenes/logo.png';
 import { useUser } from '../../context/userContext';
-import url from '../../componentes/constantes/urlback';
+import url from '../../componentes/constantes/urlBack';
 
 
 
