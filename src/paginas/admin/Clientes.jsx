@@ -4,7 +4,7 @@ import { useEffect, useState, useRef } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from "axios";
-import url from '../../componentes/constantes/urlback';
+import url from '../../componentes/constantes/urlBack';
 
 const Clientes = () => {
 
