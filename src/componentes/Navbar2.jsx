@@ -33,7 +33,7 @@ const Navbar = () => {
           </PrivateComponent>
           
                  
-           <a href="https://www.google.com/accounts/Logout?continue=https://appengine.google.com/_ah/logout?continue=http://localhost:3000"><button type="button" class="btn-iniciar-sesion btn btn-outline-primary me-2"> 
+           <a href="https://www.google.com/accounts/Logout?continue=https://appengine.google.com/_ah/logout?continue=https://devsfuturistics.herokuapp.com/"><button type="button" class="btn-iniciar-sesion btn btn-outline-primary me-2"> 
               Logout</button></a>
               </div>
 
